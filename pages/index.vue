@@ -21,33 +21,39 @@
           <NuxtLink
             target="_blank"
             to="https://www.linkedin.com/in/aysegulkaradan/"
-            class="mx-4 text-gray-50 hover:text-indigo-900"
+            class="mx-2 text-gray-50 hover:text-indigo-900"
             alt="linkedin"
             aria-label="connect with linkedin"
           >
-            <Icon name="uil:linkedin" class="text-5xl md:text-7xl" />
+            <Icon
+              name="uil:linkedin"
+              class="text-3xl sm:text-5xl lg:text-7xl"
+            />
           </NuxtLink>
           <NuxtLink
             target="_blank"
             to="mailto:karadan.ay7@gmail.com"
-            class="mx-4 text-gray-50 hover:text-indigo-900"
+            class="mx-2 text-gray-50 hover:text-indigo-900"
             alt="mailto"
             aria-label="connect with mail"
           >
-            <Icon name="uil:envelope" class="text-5xl md:text-7xl" />
+            <Icon
+              name="uil:envelope"
+              class="text-3xl sm:text-5xl lg:text-7xl"
+            />
           </NuxtLink>
           <NuxtLink
             target="_blank"
             alt="github"
             to="https://github.com/karadanay7"
-            class="mx-4 text-gray-50 hover:text-indigo-900"
+            class="mx-2 text-gray-50 hover:text-indigo-900"
             aria-label="connect with github"
           >
-            <Icon name="uil:github" class="text-5xl md:text-7xl" />
+            <Icon name="uil:github" class="text-3xl sm:text-5xl lg:text-7xl" />
           </NuxtLink>
 
           <h2
-            class="text-2xl md:text-3xl text-gray-50 text-center m-3 hover:text-indigo-900"
+            class="text-2xl md:text-3xl lg:text-4xl text-gray-50 text-center m-3 hover:text-indigo-900"
           >
             Aysegul Karadan
           </h2>
