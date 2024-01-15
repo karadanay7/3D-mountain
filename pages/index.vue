@@ -8,7 +8,7 @@
       class="drop-shadow-2xl z-10 font-index font-extrabold"
       :style="{
         position: 'absolute',
-        top: `${transitionTop}px`,
+        top: `${transitionTop}%`,
         left: '50%',
         transform: 'translate(-50%, -50%)',
       }"
@@ -68,7 +68,7 @@ function calculateTransitionTop(elapsedTime) {
   // Calculate the transitionTop value from top to center
   transitionTop.value =
     (Math.min(transitionDuration, elapsedTime) / transitionDuration) *
-    (window.innerHeight / 2);
+    (100 / 2);
 }
 
 // Start the transition calculation using setInterval
@@ -84,7 +84,7 @@ const intervalId = setInterval(() => {
     calculateTransitionTop(elapsedTime);
   } else {
     // Transition complete
-    transitionTop.value = window.innerHeight / 2;
+    transitionTop.value = 100 / 2;
     clearInterval(intervalId);
   }
 }, interval);
